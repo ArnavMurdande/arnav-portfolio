@@ -1,0 +1,29 @@
+/* 1. Imports MUST be at the very top */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;400;600;800&family=Anton&family=Courier+New&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@700&family=Noto+Sans+Devanagari:wght@700&family=Noto+Sans+JP:wght@700&family=Noto+Sans+KR:wght@700&family=Noto+Sans+Bengali:wght@700&family=Noto+Sans+Tamil:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600;700&family=JetBrains+Mono:wght@100;400;700&display=swap");
+
+/* 2. Tailwind Directives come second */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3. Global Styles */
+body {
+  min-height: 100vh;
+  background: #050505;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body, html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  overflow: hidden; /* Ensures native scroll is gone */
+}
